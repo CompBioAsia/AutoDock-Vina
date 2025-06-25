@@ -1,0 +1,41 @@
+## Create a conda environment
+conda create -n vina_practice python=3.11
+
+## Activate the Conda environment
+conda activate vina_practice 
+
+## Install Openbabel
+conda install -c conda-forge -c bioconda -y openbabel
+
+## If doesn't work(vina)
+conda install -c conda-forge numpy swig boost-cpp libboost sphinx sphinx_rtd_theme
+pip install vina
+
+## Matplotlib
+conda install matplotlib
+
+## Install biopandas
+pip install biopandas
+
+## Install scikit-learn
+pip install scikit-learn
+
+## Install nglview
+conda install -c conda-forge -c bioconda -y nglview
+
+## Install smina
+conda install -c conda-forge -c bioconda -y smina
+
+## Install rdkit
+pip install rdkit
+
+## If needed - Instgall git
+conda install git
+
+## Install meeko
+git clone https://github.com/forlilab/Meeko
+cd Meeko
+pip install .
+
+## install prody
+pip install prody
