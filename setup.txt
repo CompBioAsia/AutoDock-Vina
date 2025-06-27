@@ -39,3 +39,6 @@ pip install .
 
 ## install prody
 pip install prody
+
+## install crossflow
+pip install crossflow
